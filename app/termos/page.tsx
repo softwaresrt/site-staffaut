@@ -1,0 +1,3 @@
+import Link from 'next/link';
+export const metadata={title:'Termos | StaffAut'};
+export default function Terms(){return <main className="legal"><Link href="/">← Voltar ao início</Link><p className="eyebrow">INFORMAÇÕES IMPORTANTES</p><h1>Termos de uso.</h1><p>Este website apresenta os serviços da StaffAut em caráter informativo. As demonstrações de processos são ilustrativas e não representam uma operação real em tempo real.</p><p>Disponibilidade, recursos, integrações, preços e condições contratuais deverão ser confirmados no momento da contratação.</p><p><strong>Aviso de publicação:</strong> esta página é um texto-base e precisa de revisão jurídica e inclusão dos dados do titular antes do lançamento.</p></main>}
